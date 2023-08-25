@@ -135,7 +135,7 @@ int main(int argc, char **argv)
 void Usage(const Options &options)
 {
     std::cerr << std::endl
-              << "Usage: contrafold [predict|predict-foldchange|sample|revi|train|em-train] [OPTION]... INFILE(s)" << std::endl 
+              << "Usage: eternafold [predict|predict-foldchange|sample|revi|train|em-train] [OPTION]... INFILE(s)" << std::endl 
               << std::endl
               << "       where [OPTION]...   is a list of zero or more optional arguments" << std::endl
               << "             INFILE(s)     is the name of the input BPSEQ, plain text, or FASTA file(s)" << std::endl 
